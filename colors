@@ -30,7 +30,7 @@ if $_isxrunning; then
 
     export PS1="$GY[$Y\u$GY@$P\h$GY:$B\W\$(__git_ps1 \"$GY|$LB%s\")$GY]$W\$(get_prompt_symbol) "
   else
-    export PS1="$GY[$Y\u$GY@$P\h$GY:$B\W$GY]$W\$(get_prompt_symbol) "
+    export PS1="$Y[$Y\u$Y@$Y\h$Y:$B\W$Y]$W\$(get_prompt_symbol) "
   fi
 else
   export TERM='xterm-color'
