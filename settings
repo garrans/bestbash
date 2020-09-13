@@ -11,9 +11,14 @@ _isxrunning=false
 _isroot=false
 [[ $UID -eq 0 ]] && _isroot=true
 # }}}
+	
+# SJG ADDED OPTIONS {{{
+echo -ne "\033]0;$(uname -n)\a"
 
 
+# }}}
 
+# }}}
 # BASH OPTIONS {{{
 shopt -s cdspell                 # Correct cd typos
 shopt -s checkwinsize            # Update windows size on command
